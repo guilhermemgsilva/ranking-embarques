@@ -56,3 +56,19 @@ th {
     align-items: center;
     border: none;
 }
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .link-menu {
+        width: 80%;
+        padding: 1em 1.5em;
+    }
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 480px) {
+    .link-menu {
+        width: 80%;
+        padding: 1em;
+    }
+}
